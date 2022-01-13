@@ -1,0 +1,34 @@
+Unlogged
+
+From starting page, we scroll down to Featured Hotels and choose an option with NO discount.
+There we choose any room. Note that regardless of which amount of guests can the room have, 
+the next view lets us always add 2 adults and 2 childs. This seems like a bug.
+
+In this view we can fill up a form with personal information. Noted that the input fields have
+some format rules, like the email requiring to be a valid email address, but no pop-ups or error 
+messages appear when we introduce a wrong input. 
+
+We can proceed to next page without actually give the guests information. This could be a potential bug.
+
+Now we have a reservation. The booking status is Pending and payment status is Paypal (Unpaid).
+
+During next scenario, we´ll test a hotel with discount. So there we´ll be able to see if discounts are being applied correctly.
+We´ll look for a hotel with discount in Featured Hotels.
+Once there we´ll see again a mismatch between the guest´s availability and what we can 
+actually fill in the next form. Where are my children? (Potential bug cause last time we had those inputs)
+No clues about discounts being applied are during this view (Personal info page)
+
+We choose "Pay later" as payment method.
+
+If we cancell the booking from this page, we see that cancellations are not inmediate.
+
+Logged in
+NOTE: the searchbar´s input we put keeps if we travel back. Cookies and storage look like failing.
+NOTE: there is a room with 20 adults in Rose Rayhaan Rotana. Only 2 adults can be registered in the process.
+
+No step has been requiring us to be logged in, so let´s see if there are functionalities after loggin in.
+As expected, the user´s information is autocompleted in non-editable form inputs. 
+We should still be able to change any of them. This seems too rude.
+
+There is a conclussion about the amount of adults and children we can register: they vary for each hotel, and after visiting one of them in navigation, personal information form keeps with that amount of guests, independent to the actual number of guests it provides (Bug).
+Again, we perform a booking without a clue of having a discount.
